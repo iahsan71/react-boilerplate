@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import Dialer from "./Dialer";
 
-const AdminView = props => {
-	return (
-		<>
-			<h2>Main View</h2>
-			<Link to='/auth'>Auth View</Link>
-		</>
-	);
+const AdminView = (props) => {
+    return (
+        <>
+            <Dialer />
+        </>
+    );
 };
 
 export default AdminView;
